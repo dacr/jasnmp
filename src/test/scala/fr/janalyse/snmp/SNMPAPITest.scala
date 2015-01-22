@@ -37,6 +37,8 @@ import sys.process._
  *  - http://www.oid-info.com/index.htm
  *  - http://www.alvestrand.no/objectid/1.3.6.1.2.1.html
  *  
+ * More notes :
+ *  - Use "snmpconf -g basic_setup" for some help in the configuration process
  */
 
 @RunWith(classOf[JUnitRunner])
@@ -50,7 +52,8 @@ class SNMPAPITest extends FunSuite with ShouldMatchers {
   }
 
   val host = "127.0.0.1"
-  val community = "my-own-SNMP-community"
+  //val community = "my-own-SNMP-community"
+  val community = "reader"
   
   // ---------------------------------------------------------------------------
   test("get uptime from OID") {
