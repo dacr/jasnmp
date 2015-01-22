@@ -10,7 +10,7 @@ scalaVersion := "2.11.5"
 
 crossScalaVersions := Seq("2.10.4", "2.11.5")
 
-libraryDependencies += "org.snmp4j" % "snmp4j" % "2.3.0" % "compile"
+libraryDependencies += "org.snmp4j" % "snmp4j" % "2.3.3" % "compile"
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.+" % "test"
 
