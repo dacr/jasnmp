@@ -18,7 +18,7 @@ package fr.janalyse.snmp
 
 import org.junit.runner.RunWith
 import org.scalatest.FunSuite
-import org.scalatest.matchers.ShouldMatchers
+import org.scalatest.ShouldMatchers
 import org.scalatest.junit.JUnitRunner
 import org.snmp4j.smi._
 

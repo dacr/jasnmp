@@ -25,3 +25,9 @@ Preparing a test platform:
    + snmpwalk -v2c -c my-own-SNMP-community localhost
 
 ------------------------------------------------------------------
+MIB :
+
+  - OID databases
+      http://www.oidview.com/mibs/detail.html
+      http://www.oid-info.com/
+      http://www.mibdepot.com/index.shtml
